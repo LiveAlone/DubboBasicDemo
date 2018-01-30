@@ -1,4 +1,4 @@
-package org.yqj.dubbo.demo.api;
+package org.yqj.dubbo.demo.provider;
 
 import org.springframework.boot.Banner;
 import org.springframework.boot.ansi.AnsiColor;

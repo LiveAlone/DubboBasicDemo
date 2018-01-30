@@ -14,6 +14,7 @@
         <spring.boot.version>1.5.9.RELEASE</spring.boot.version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
+        <dubbo.version>2.6.0</dubbo.version>
     </properties>
 
     <modules>
@@ -24,6 +25,47 @@
 
     <dependencyManagement>
         <dependencies>
+
+            <!-- https://mvnrepository.com/artifact/com.alibaba/dubbo -->
+            <!--<dependency>-->
+                <!--<groupId>com.alibaba</groupId>-->
+                <!--<artifactId>dubbo</artifactId>-->
+                <!--<version>2.6.0</version>-->
+            <!--</dependency>-->
+
+            <!--<dependency>-->
+                <!--<groupId>com.alibaba</groupId>-->
+                <!--<artifactId>dubbo-config-spring</artifactId>-->
+                <!--<version>${dubbo.version}</version>-->
+            <!--</dependency>-->
+            <!--<dependency>-->
+                <!--<groupId>com.alibaba</groupId>-->
+                <!--<artifactId>dubbo-registry-zookeeper</artifactId>-->
+                <!--<version>${dubbo.version}</version>-->
+            <!--</dependency>-->
+            <!--<dependency>-->
+                <!--<groupId>com.alibaba</groupId>-->
+                <!--<artifactId>dubbo-registry-multicast</artifactId>-->
+                <!--<version>${dubbo.version}</version>-->
+            <!--</dependency>-->
+            <!--<dependency>-->
+                <!--<groupId>com.alibaba</groupId>-->
+                <!--<artifactId>dubbo-cluster</artifactId>-->
+                <!--<version>${dubbo.version}</version>-->
+            <!--</dependency>-->
+            <!--<dependency>-->
+                <!--<groupId>com.alibaba</groupId>-->
+                <!--<artifactId>dubbo-rpc-default</artifactId>-->
+                <!--<version>${dubbo.version}</version>-->
+            <!--</dependency>-->
+
+            <!--<dependency>-->
+                <!--<groupId>com.alibaba</groupId>-->
+                <!--<artifactId>dubbo-remoting-netty</artifactId>-->
+                <!--<version>${dubbo.version}</version>-->
+            <!--</dependency>-->
+
+
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter</artifactId>

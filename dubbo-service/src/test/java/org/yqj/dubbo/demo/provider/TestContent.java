@@ -1,4 +1,4 @@
-package org.yqj.dubbo.demo.service;
+package org.yqj.dubbo.demo.provider;
 
 /**
  * Created by yaoqijun.

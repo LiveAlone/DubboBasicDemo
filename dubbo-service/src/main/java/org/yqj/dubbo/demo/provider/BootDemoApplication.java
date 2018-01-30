@@ -1,4 +1,4 @@
-package org.yqj.dubbo.demo.service;
+package org.yqj.dubbo.demo.provider;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
