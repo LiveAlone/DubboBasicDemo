@@ -27,6 +27,11 @@
 
     <dependencyManagement>
         <dependencies>
+            <!--<dependency>-->
+                <!--<groupId>com.alibaba.boot</groupId>-->
+                <!--<artifactId>dubbo-spring-boot-starter</artifactId>-->
+                <!--<version>${dubbo.boot.version}</version>-->
+            <!--</dependency>-->
 
             <dependency>
                 <groupId>com.alibaba</groupId>
