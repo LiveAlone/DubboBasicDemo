@@ -1,4 +1,4 @@
-package org.yqj.dubbo.demo.provider;
+package org.yqj.dubbo.demo.provider.service;
 
 
 import com.alibaba.dubbo.config.annotation.Service;
