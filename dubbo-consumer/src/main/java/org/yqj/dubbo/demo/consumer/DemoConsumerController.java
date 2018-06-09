@@ -16,11 +16,11 @@
  */
 package org.yqj.dubbo.demo.consumer;
 
-import com.alibaba.dubbo.config.annotation.Reference;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import org.yqj.dubbo.demo.api.DemoService;
+import org.yqj.dubbo.demo.consumer.service.DemoServiceWrapper;
 
 /**
  * Demo Consumer Controller (REST)
@@ -32,13 +32,11 @@ import org.yqj.dubbo.demo.api.DemoService;
 @RestController
 public class DemoConsumerController {
 
-    @Reference(version = "1.0.0",
-            application = "${dubbo.application.id}",
-            url = "dubbo://localhost:12345")
-    private DemoService demoService;
+    @Autowired
+    private DemoServiceWrapper demoServiceWrapper;
 
     @RequestMapping("/sayHello")
     public String sayHello(@RequestParam String name) {
-        return demoService.sayHello(name);
+        return demoServiceWrapper.sayHelloWrapper(name);
     }
 }
