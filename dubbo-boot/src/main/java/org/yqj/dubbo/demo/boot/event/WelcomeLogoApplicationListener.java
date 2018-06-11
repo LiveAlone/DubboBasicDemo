@@ -24,11 +24,11 @@ import org.springframework.boot.logging.LoggingApplicationListener;
 import org.springframework.context.ApplicationListener;
 import org.springframework.core.annotation.Order;
 
+import static com.alibaba.dubbo.qos.server.DubboLogo.dubbo;
 import static org.yqj.dubbo.demo.boot.util.DubboUtils.DUBBO_GITHUB_URL;
 import static org.yqj.dubbo.demo.boot.util.DubboUtils.DUBBO_GOOGLE_GROUP_URL;
 import static org.yqj.dubbo.demo.boot.util.DubboUtils.DUBBO_SPRING_BOOT_GITHUB_URL;
 import static org.yqj.dubbo.demo.boot.util.DubboUtils.LINE_SEPARATOR;
-import static com.alibaba.dubbo.qos.server.DubboLogo.dubbo;
 
 /**
  * Dubbo Welcome Logo {@link ApplicationListener}
