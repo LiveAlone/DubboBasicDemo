@@ -13,7 +13,7 @@ public class DemoServiceWrapper {
 
     @Reference(version = "1.0.0",
             application = "${dubbo.application.id}",
-            url = "dubbo://localhost:12345")
+            url = "dubbo://127.0.0.1:12345")
     private DemoService demoService;
 
     public String sayHelloWrapper(String name){
